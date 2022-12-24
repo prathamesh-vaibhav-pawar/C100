@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" integrity="sha512-AQMSn1qO6KN85GOfvH6BWJk46LhlvepblftLHzAv1cdIyTWPBKHX+r+NOXVVw6+XQpeW4LJk/GTmoP48FLvblQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <a href="" id="Image" download="BestPic.png"></a>
+        <center>
+        <h1>Selfie web app</h1><br><br>
+        <textarea name="" id="Text_area" readonly="true" class="Txt" cols="30" rows="10"></textarea><br><br>
+        <label for="">Press Start button to take photo /Collage and Say "Selfie"</label><br>
+        <button class="btn btn-primary" onclick="TakePhoto()">Take Photo</button>
+        <p>Your photo will be shown here</p>
+        <div class="Photo" id="Photo"></div>
+        <p>Collage will be seen here</p>
+        <div class="container1" id="Photo1"><img src="image1.jfif" alt=""><br><br><button class="btn btn-primary" onclick="downloadImage1()">Download Image</button></div>
+        <div class="container2" id="Photo2"><img src="image4.jfif" alt=""><br><br><button class="btn btn-primary" onclick="downloadImage2()">Download Image</button></div><br>
+        <div class="Container3" id="Photo3"><img src="image3.jfif" alt=""><br><br><button class="btn btn-primary" onclick="downloadImage3()">Download Image</button></div>
+    </center>
+    
+    </body>
+    <script src="main.js"></script>
+</html>
